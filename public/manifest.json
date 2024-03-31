@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "NYPL: Rage Against The Archive",
+  "version": "1.0",
+  "description": "Replaces the art print options with custom banner",
+  "content_scripts": [
+    {
+      "matches": ["https://nypl.archivea.com/*"], 
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
